@@ -4,7 +4,10 @@
 pkgs.mkShell {
   name = "fabric-shell";
   packages = with pkgs; [
-    ruff
+    ruff # Linter
+    basedpyright # Language server
+
+    # Required for Devshell
     gtk3
     gtk-layer-shell
     cairo
@@ -13,7 +16,6 @@ pkgs.mkShell {
     gdk-pixbuf
     gnome.gnome-bluetooth
     cinnamon.cinnamon-desktop
-    basedpyright
     (python3.withPackages (
       ps: with ps; [
         setuptools
