@@ -2,6 +2,8 @@
 
 Example of a [Fabric](https://github.com/Fabric-Development/fabric) widget packaged with Nix.
 
+The bar example (`bar.py`, `bar.css`) is taken from the Fabric repository. `bar.py` was slightly modified to supply an entry point for `pyproject.toml`.
+
 
 ## Usage
 
