@@ -5,7 +5,8 @@ Example of a [Fabric](https://github.com/Fabric-Development/fabric) widget packa
 
 ## Usage
 
->[!NOTE] Ensure the correct Github Repository/Branch is correct.
+>[!NOTE]
+> Ensure the correct Github Repository/Branch is correct.
 ```
 mkdir my-bar-project
 cd my-bar-project
