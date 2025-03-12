@@ -30,7 +30,7 @@
       {
         formatter = pkgs.nixfmt-rfc-style;
         devShells.default = pkgs.callPackage ./shell.nix { inherit pkgs; };
-        packages.default = pkgs.callPackage ./derivation.nix { inherit (pkgs) lib python3Packages; };
+        packages.default = pkgs.callPackage ./derivation.nix { inherit (pkgs) lib python312Packages; };
         apps.default = {
           type = "app";
           program = "${self.packages.${system}.default}/bin/bar";
