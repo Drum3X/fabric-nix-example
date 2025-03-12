@@ -5,7 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/24.05";
     unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
     utils.url = "github:numtide/flake-utils";
-    fabric.url = "github:wholikeel/fabric-nix";
+    fabric.url = "github:drum3x/fabric-nix";
   };
 
   outputs =
